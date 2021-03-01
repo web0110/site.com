@@ -1,0 +1,144 @@
+/*основа*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(images/.png);
+  background-color: silver;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+div {
+  padding: 5px 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+/*Шапка сайта*/
+.header {
+  border-radius: 10px 10px 0 0;
+  margin-top: 20px;
+  background-color: #1F232B;
+  color: #D0AA00;
+  box-shadow: 0 0 10px 5px #2F3238;
+  max-height: 300px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.nav {
+  background-color: #9A0246;
+  color: #003A4A;
+  box-shadow: 0 0 5px 3px #2F3238;
+  text-align: center;
+  line-height: 30px;
+  max-height: 30px;
+}
+
+/*Боковая панель
+зафиксировать к сайту*/
+.sidebar {
+  background: #1F232B;
+  color: #fff;
+  box-shadow: 0 0 10px 5px #2F3238;
+  float: left;
+  max-width: 200px;
+  min-height: 150px;
+  margin-top: 5px;
+}
+
+A {
+  text-decoration: none;
+  /* Убирает подчеркивание для ссылок */
+}
+
+a:link {
+  text-decoration: none;
+  color: #00A6A6;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #006262;
+}
+
+A:hover {
+  text-decoration: none;
+  /* Добавляем подчеркивание при наведении курсора на ссылку */
+  color: #00FFFF;
+  /* Ссылка красного цвета */
+}
+
+/*Боковая панель-2*/
+.sidebar1 {
+  background-color: #1F232B;
+  color: #fff;
+  line-height: 20px;
+  box-shadow: 0 0 10px 5px #2F3238;
+  float: right;
+  max-width: 200px;
+  min-width: 150px;
+  margin-top: 5px;
+}
+
+/*контейнер для контента и подвала*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/*Основной контент*/
+.content {
+  text-align: justify;
+  color: #fff;
+  background-color: #2F3238;
+  box-shadow: 0 0 10px 5px #2F3238;
+  margin-bottom: 10px;
+  line-height: 25px;
+  flex: 1 0 auto;
+}
+
+.img2 {
+  width: 30%;
+}
+
+
+/*Это подвал сайта*/
+.footer {
+  font-weight: bold;
+  text-align: center;
+  max-width: 960px;
+  height: 30px;
+  max-height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+  box-shadow: 0 0 10px 5px #2F3238;
+  background-color: #4B5362;
+  border-radius: 0 0 10px 10px;
+  flex: 0 0 auto;
+}
+
+.contacts {
+  text-align: center;
+  padding-top: 30%;
+}
+
+/**/
